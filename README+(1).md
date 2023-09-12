@@ -1,52 +1,29 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike_Sharing_Assignment
+> This assignment is a programming assignment wherein we have to build a multiple linear regression model for the prediction of demand for shared bikes. 
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+-BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+- Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
+-Specifically, this project want to understand the factors affecting the demand for these shared bikes in the American market.
+- Dataset is day.csv which consist of all info related to bike rides
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+-python - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+- Our Train-Test dataset have almost similar values of r2 and adj r2, hence our predictions are correct and we can consider this model as final model.
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Also, demand for bike rides depends on - atemp, september month, holiday, year, windspeed, light_snowrain, winter, spring, misty
+- Model lr_4 seems to be linear and best fitted to the error
+  no multicollinearity is present, homoscedasticity is seen
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@TanuP-GitHub] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
